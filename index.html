@@ -554,14 +554,14 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form action="" class="modal-form">
+        <form class="modal-form">
           <div class="modal-form-wrapper">
-            <label for="modal-form-input-name" class="modal-form-label"
+            <label for="user-name" class="modal-form-label"
               >Name</label
             >
             <div class="modal-form-input-wrapper">
               <input
-                id="modal-form-input-name"
+                id="user-name"
                 type="text"
                 class="modal-form-input"
               />
@@ -604,12 +604,12 @@
             >Comment</label
           >
           <textarea
-            name=""
+            name="comment"
             id="modal-form-textarea"
             class="modal-form-textarea"
             placeholder="Text input"
           ></textarea>
-          <label for=""></label>
+          <label for="modal-form-textarea"></label>
           <div class="modal-form-checkbox-wrapper">
             <input
               type="checkbox"
@@ -617,7 +617,7 @@
               value="true"
               required
             />
-            <label for="modal-form-checkbox">
+            <label for="modal-form-checkbox" class="modal-form-checkbox">
               I accept the terms and conditions of the
               <a href="" class="privacy-policy-link">Privacy Policy</a>
             </label>
