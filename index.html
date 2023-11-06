@@ -607,7 +607,7 @@
             >Comment</label
           >
           <textarea
-            name="comment"
+            name="user-comment"
             id="user-comment"
             class="modal-form-textarea"
             placeholder="Text input"
@@ -615,12 +615,19 @@
           </div>
           <div class="modal-form-checkbox-wrapper">
             <input
+              name="user-privacy"
               type="checkbox"
-              id="modal-form-checkbox"
+              id="user-privacy"
+              class="modal-form-checkbox visually-hidden"
               value="true"
               required
             />
-            <label for="modal-form-checkbox" class="modal-form-checkbox">
+            <label for="user-privacy" class="modal-form-checkbox-label">
+              <span class="modal-form-styled-checkbox">
+                <svg class="modal-form-styled-checkbox-svg" width="10" height="8">
+                  <use href="./images/form-icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a href="" class="privacy-policy-link">Privacy Policy</a>
             </label>
